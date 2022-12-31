@@ -57,6 +57,48 @@ a:hover{
     margin-top: 10%;
 }
 
+.btn-second{
+    -webkit-animation: movers 1.3s infinite  alternate;
+    animation: movers 1s infinite  alternate;
+}
+
+@-webkit-keyframes movers {
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+@keyframes movers {
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+
+.btn-first{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1.3s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-10px); }
+}
+
+.btn-treet{
+    -webkit-animation: movers1 1.3s infinite  alternate;
+    animation: movers1 1.3s infinite  alternate;
+}
+
+@-webkit-keyframes movers1 {
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+@keyframes movers1 {
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
 
 @media(max-width: 940px){
     body{
