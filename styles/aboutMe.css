@@ -91,4 +91,7 @@ button:hover{
     h3, b{
         font-size: 12px;
     }
+    button{
+        width: 60%
+    }
 }
