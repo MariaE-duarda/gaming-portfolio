@@ -38,7 +38,7 @@ body{
 }
 
 .image-tech{
-    width: 30px;
+    width: 50px;
     margin-top: 20px;
 }
 
@@ -71,5 +71,22 @@ a:hover{
     }
     .image-tech{
         width: 50px;
+    }
+}
+
+@media(max-width: 500px){
+    .carousel{
+        margin-top: 15%;
+    }
+
+    span{
+        font-size: 11px;
+    }
+    
+    a, label{
+        font-size: 16px;
+    }
+    .image-tech{
+        width: 30px;
     }
 }
