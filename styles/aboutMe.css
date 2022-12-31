@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+    color: #86b3b4;
+
+}
+
+body{
+    background: linear-gradient(#242424 70%, rgba(0, 0, 0, 0.815));
+    height: 100vh;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+b{
+    color: white;
+    font-weight: 100;
+}
+
+button{
+    height: 60px;
+    width: 40%;
+    border: 3px solid #A5C9CA;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: .5s;
+    background: #a5c9ca2d;
+
+}
+
+a{
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+}
+
+button:hover{
+    background: #a5c9ca8f;
+    color: white;
+}
+
+.btn-first{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1.3s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.btn-router{
+    margin-top: 40px;
+    text-align: center;
+}
