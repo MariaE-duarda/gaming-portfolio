@@ -8,13 +8,12 @@
     padding-right: 10px;
     box-sizing: border-box;
     font-family: 'Press Start 2P';
-    color: #86b3b4;
-
+    color: #A5C9CA;
 }
 
 body{
     background: linear-gradient(#242424 70%, rgba(0, 0, 0, 0.815));
-    height: 100vh;
+    height: 88vh;
 }
 
 h1{
@@ -34,6 +33,7 @@ b{
     color: white;
     font-weight: 100;
 }
+
 
 button{
     height: 60px;
@@ -79,12 +79,15 @@ button:hover{
 
 @media(max-width: 600px){
     h1{
-        font-size: 18px;
+        font-size: 22px;
+        margin-top: 80px;
+        letter-spacing: 3px;
     }
     h3, b{
-        font-size: 10px;
+        font-size: 13px;
     }
     button{
         font-size: 13px;
-    }
+        width: 65%;
+    } 
 }
