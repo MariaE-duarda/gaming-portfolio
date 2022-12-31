@@ -83,8 +83,14 @@ button:hover{
         margin-top: 80px;
         letter-spacing: 3px;
     }
+
+    *{
+        padding-left: 0;
+        padding-right: 0;
+    }
     h3, b{
-        font-size: 13px;
+        font-size: 12px;
+        line-height: 15px;
     }
     button{
         font-size: 13px;
