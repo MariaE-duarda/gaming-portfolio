@@ -62,6 +62,47 @@ a:hover{
     animation: movers 1s infinite  alternate;
 }
 
+button{
+    height: 60px;
+    width: 40%;
+    border: 3px solid #A5C9CA;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: .5s;
+    background: #a5c9ca2d;
+}
+
+a{
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+}
+
+button:hover{
+    background: #a5c9ca8f;
+    color: white;
+}
+
+.btn-first{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1.3s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.btn-router{
+    margin-top: 40px;
+    text-align: center;
+}
+
 @-webkit-keyframes movers {
     0% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
