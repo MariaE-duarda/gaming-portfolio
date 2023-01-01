@@ -54,7 +54,7 @@ a:hover{
 }
 
 .carousel{
-    margin-top: 15%;
+    margin-top: 7%;
 }
 
 .btn-second{
@@ -159,7 +159,7 @@ button:hover{
 
 @media(max-width: 500px){
     .carousel{
-        margin-top: 15%;
+        margin-top: 17%;
     }
 
     span{
