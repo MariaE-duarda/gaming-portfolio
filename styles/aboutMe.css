@@ -85,12 +85,12 @@ button:hover{
     }
 
     *{
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 1px;
+        padding-right: 1px;
     }
     h3, b{
         font-size: 12px;
-        line-height: 15px;
+        line-height: 20px;
     }
     button{
         font-size: 13px;
