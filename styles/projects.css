@@ -15,7 +15,7 @@ h1{
 
 body{
     background: linear-gradient(#242424 70%, rgba(0, 0, 0, 0.815));
-    height: 84.5vh;
+    height: 100%;
 }
 
 .container-cards{
@@ -54,7 +54,7 @@ a:hover{
 }
 
 .carousel{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .btn-second{
